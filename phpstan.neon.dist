@@ -1,0 +1,29 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+
+    paths:
+        - app
+        - config
+        - database
+        - lang
+        - routes
+        - resources
+        - tests
+
+    # The level 9 is the highest level
+    level: 8
+
+    ignoreErrors:
+        #- message: '#Illuminate\\Support\\Str::slug\(\) expects string, mixed given#'
+        #  path: ./**.php
+
+        - message: '#Illuminate\\Cache\\RateLimiting\\Limit::by#'
+          path: ./app/Providers/RouteServiceProvider.php
+
+    excludePaths:
+        - ./routes/console.php
+
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false
