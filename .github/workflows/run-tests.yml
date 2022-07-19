@@ -31,7 +31,7 @@ jobs:
       mysql:
         image: mysql:latest
         env:
-          MYSQL_DATABASE: test_db
+          MYSQL_DATABASE: laravel
           MYSQL_HOST: 127.0.0.1
           MYSQL_USER: username
           MYSQL_PASSWORD: password
