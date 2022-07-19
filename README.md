@@ -1,9 +1,8 @@
 # About Laravel
 
 [![Tests](https://github.com/kevinpurwito/laravel/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/kevinpurwito/laravel/actions/workflows/run-tests.yml)
-[![Code Style](https://github.com/kevinpurwito/laravel/actions/workflows/php-cs-fixer.yml/badge.svg?branch=main)](https://github.com/kevinpurwito/laravel/actions/workflows/php-cs-fixer.yml)
+[![Pint CS](https://github.com/kevinpurwito/laravel/actions/workflows/pint-cs.yml/badge.svg?branch=main)](https://github.com/kevinpurwito/laravel/actions/workflows/pint-cs.yml)
 [![PHPStan](https://github.com/kevinpurwito/laravel/actions/workflows/phpstan.yml/badge.svg?branch=main)](https://github.com/kevinpurwito/laravel/actions/workflows/phpstan.yml)
-[![Psalm](https://github.com/kevinpurwito/laravel/actions/workflows/psalm.yml/badge.svg?branch=main)](https://github.com/kevinpurwito/laravel/actions/workflows/psalm.yml)
 
 Laravel is a PHP framework.
 
