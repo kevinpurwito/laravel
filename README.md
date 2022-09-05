@@ -26,6 +26,11 @@ php artisan key:generate
 php artisan test
 ```
 
+## Creating project
+```bash
+composer create-project kevinpurwito/laravel app-name
+```
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
