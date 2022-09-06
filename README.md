@@ -15,8 +15,14 @@ We believe development must be an enjoyable and creative experience to be truly 
 ## Installation
 
 ``` bash
+composer create-project kevinpurwito/laravel app-name
 composer install
 cp .env.example .env
+
+php artisan vendor:publish --provider "OwenIt\Auditing\AuditingServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="Spatie\MediaLibrary\MediaLibraryServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+
 php artisan migrate --seed
 php artisan key:generate
 ```
@@ -24,11 +30,6 @@ php artisan key:generate
 ## Testing
 ``` bash
 php artisan test
-```
-
-## Creating project
-```bash
-composer create-project kevinpurwito/laravel app-name
 ```
 
 ## Changelog
